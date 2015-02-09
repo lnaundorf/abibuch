@@ -1,7 +1,7 @@
 <h1>Impressum</h1><p>Angaben gemäß § 5 TMG:<br/><br/></p>
 <p>Leif Naundorf<br />
-Danckelmannstraße 46/47<br />
-14059 Berlin<br />
+Georg-Wilhelm-Straße 11<br />
+10711 Berlin<br />
 </p>
 <h2>Kontakt:</h2>
 <p>E-Mail: kontakt@leifnaundorf.de</p>

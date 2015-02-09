@@ -42,8 +42,8 @@ header('Content-Type: text/html; charset=utf-8');
 <body>
 	<div class="header">
 		<div align="center">
-			AKS Kronberg Abibuch 2012
-			<!--<font size="4" style="font-variant: normal"><br><br>HIER KÖNNTE IHR ABIMOTTO STEHEN</font>-->
+			Abibuch 20XX
+			<font size="4" style="font-variant: normal"><br><br>HIER KÖNNTE IHR ABIMOTTO STEHEN</font>
 		</div>
 	</div>
 	<div class="container-fluid">

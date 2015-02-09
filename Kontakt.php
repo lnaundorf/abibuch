@@ -6,10 +6,9 @@
 	
 	echo '<h2>Das Komitee</h2>';
 	echo '<table border="0" style="font-size: 13pt; width: 65%">
-	<tr><td class="table-plain">Daniela Matthäus</td><td class="table-plain">Manuel Mehlhorn</td><td class="table-plain">René Sobottka</td></tr>
-	<tr><td class="table-plain">Marvin Mikus</td><td class="table-plain">Manuela Spaeth</td><td class="table-plain">Lea Wegener</td></tr>
-	<tr><td class="table-plain">Hannah Klenk</td><td class="table-plain">Esther Barthel</td><td class="table-plain">Joy Mentzing</td></tr>
-	<tr><td class="table-plain">Seo-Hyun Choi</td><td class="table-plain">Kim Dawedeit</td><td class="table-plain">Jan Leichert</td></tr>
+	<tr><td class="table-plain">XXX</td><td class="table-plain">XXX</td><td class="table-plain">XXX</td></tr>
+	<tr><td class="table-plain">XXX</td><td class="table-plain">XXX</td><td class="table-plain">XXX</td></tr>
+	<tr><td class="table-plain">XXX</td><td class="table-plain">XXX</td><td class="table-plain">XXX</td></tr>
 	</table><br><br>';
 	
 	echo '<h2>Kontaktformular</h2>';
@@ -34,7 +33,7 @@
 			$betreff = 'Frage von: '.$_POST['name'].', Benutzername: '.$user;
 			$absender = $_POST['email'];
 			$text = $_POST['message'];
-			$empfaenger = "cSchmitzi@gmx.de";
+			$empfaenger = "user@domain.tld";
 		
 			if(mail($empfaenger, $betreff, $text, "from:".$absender."\r\nContent-Type: text/plain; charset=utf-8")) {
 				echo '<div id="tt4" class="alert-message success"><a class="close" href="javascript:removett(\'tt4\')">&times;</a><p>Deine Nachricht wurder erfolgreich verschickt.</p></div>';
